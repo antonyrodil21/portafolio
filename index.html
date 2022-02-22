@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>
+      Proyecto 3
+    </title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Proyecto 3">
+    <style>
+        .body{
+            background-color:red;
+           
+       
+        }
+
+        #navbar{
+            position: fixed;
+        }
+
+        #welcome-section{
+            display: flex;
+
+
+         }
+    
+    #projects{
+ display: grid;
+ grid-template-columns: 50% 50% 50%;
+ grid-template-rows: 100px 100px 100px;
+    }
+
+    #despues{
+
+
+    }
+    #welcome-section {
+       background-color: dimgrey;
+       height:100vh;
+      
+   }
+     
+  #despues{
+      background-color: gray;
+      width: 100%;
+       height: 500px;
+  }   
+    
+     
+
+#box-1{
+    margin-top: 20px;
+    background-color:gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    width:20% ;height: 300px;
+    margin-right: 2px;
+
+}
+#box-2{
+    margin-top: 20px;
+    background-color: gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 3px;
+    width: 20% ;height: 300px;
+    margin-right: 5px;
+}
+#box-3{
+    margin-top: 20px;
+    background-color:gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 3px;
+    width: 20%;height: 300px;
+    margin-right: 5px;
+}
+ 
+#box-4{
+    margin-top: 20px;
+    background-color:gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    width:20% ;height: 300px;
+    margin-right: 5px;
+
+}
+#box-5{
+    margin-top: 20px;
+    background-color: gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 3px;
+    width: 20% ;height: 300px;
+    margin-right: 5px;
+}
+#box-6{
+    margin-top: 20px;
+    background-color:gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 3px;
+    width: 20%;height: 300px;
+    margin-right: 5px;
+}
+ 
+
+ #caja11{
+  width: 100% ;height: 50px;
+  background-color: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+ }
+
+ #caja22{
+  width: 100% ;height: 50px;
+  background-color: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+ }
+ #caja33{
+  width: 100% ;height: 50px;
+  background-color: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+ }
+  
+ 
+  .pie{
+    background-color: blue;
+    width: 100%; height: 100px;
+    display:flex; margin-top: 20px; background-color: #eee;
+    flex-wrap: nowrap;
+    justify-content:center;
+
+  }  
+
+  @media (min-width: 700px) {
+    section {
+      flex-wrap: nowrap;
+    }  
+    </style>
+    </head>
+
+  <body class="body">
+        <!-- encabezado con barra de navegacion-->      
+          <nav id="navbar">
+              <ul>
+                <li><a class="nav-link" href="#mimic">About</a></li>
+                <li><a class="nav-link" href="#box-container">Work</a></li>
+                <li><a class="nav-link" href="#despues">Contact</a></li>
+               </ul>
+           </nav>
+       
+       </div>
+
+      
+   <!--Primer pagina-->
+  
+     <section id="welcome-section">
+        <h1>Hey I am Mimic</h1>
+        <p id="web">a web developer</p>
+     </section>
+    
+     
+     <!--Caja de l medio-->
+     <section id="projects" >
+       
+          <h1>These are some of my projects</h1>
+
+          <div id="box-1" class="project-tile">
+            <div id="caja11"><b>Gatos Salvajes</b></div>
+            
+          </div>
+
+          <div id="box-2">
+            <div id="caja22"><b>Tigres Salvajes</b></div>
+            
+             
+           </div>
+
+          <div id="box-3" class="project-tile">
+            <div id="caja33"><b>Leones Salvajes</b></div>
+           
+          </div>
+
+          <div id="box-4" class="project-tile">
+            <div id="caja44"><b>Gatos Salvajes</b></div>
+            
+          </div>
+
+          <div id="box-5">
+            <div id="caja55"><b>Tigres Salvajes</b></div>
+            
+            </div>
+
+          <div id="box-6">
+            <div id="caja66"><b>Leones Salvajes</b></div>
+            
+           
+          </div>
+              
+              
+     <div id="boton"><a id="profile-link" href="http://www.w3bai.com/es/css/css_navbar.html" target="_blank">Enviar al proyecto</a></div>
+</section>
+     
+   <!--despues del medio-->
+   <section>
+    <div id="despues">
+    <header>Let's work together...</header>
+     <p id="iddespues">How do you take your coffee?</p>
+     <nav id="enlaces">
+        <ul>
+          <li><a class="nav-link" href="#mimic">Facebook</a></li>
+          <li><a class="nav-link" href="#box-container">GitHub</a></li>
+          <li><a class="nav-link" href="#despues">Twitter</a></li>
+          <li><a class="nav-link" href="#despues">Send a mail</a></li>
+          <li><a class="nav-link" href="#despues">Call me</a></li>
+         </ul>
+     </nav>
+    </div>
+ </section>
+    <!--footer-->
+    <div id="footer">  
+     <footer class="pie">
+        **This is just a fake portfolio. All the projects and contact details given are not real.
+        Esta pagina ha sido creada por <a href="https://github.com/" id="profile-link">www.github.com</a>
+     </footer>
+    </div> 
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>    
+    </body>
+  </html>
